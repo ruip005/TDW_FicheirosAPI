@@ -5,7 +5,7 @@ const port = 3000;
 
 app.use(express.json());
 
-require('./Controllers/index')(app);
+require('./Controllers/menu_do_dia')(app);
 
 app.listen(port, () => {
     console.log(`[BOB AC] O servidor está ativo na porta ${port}`);
